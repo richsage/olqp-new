@@ -1,0 +1,27 @@
+body {
+  background: #fcfbe3;
+  font-family: "Pontano Sans", sans-serif;
+}
+
+.schedule ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.schedule ul li {
+  list-style-type: none;
+}
+
+.schedule tfoot td {
+  font-style: italic;
+}
+
+.schedule .location {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .d-md-table-header-group {
+    display: table-header-group !important;
+  }
+}
